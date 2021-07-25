@@ -28,6 +28,7 @@ body {
 .bg-container {
     /* border: solid blue; */
     display: flex;
+    flex-shrink: 2;
     justify-content: center;
     overflow: hidden;
     /* width: 100vw; */
@@ -91,3 +92,27 @@ margin: auto auto 0 auto;
 .bottom img{
     margin: 0 auto auto auto;
 }
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    img{
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    img{
+        height: 30%;
+    }
+
+}
+
+
+
+
+
+
