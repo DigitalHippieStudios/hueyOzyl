@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Spinnaker&display=swap');
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    position: relative;
+}
+
+.container {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    
+}
+
+.bg-container {
+    /* border: solid blue; */
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+    /* width: 100vw; */
+    /* height: fit-content;  */
+    margin: 0;
+}
+
+h3,
+h1 {
+    /* border: solid green; */
+    padding: 0%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+.countdown {
+    display: flex;
+    gap: 5vw;
+    text-align: center;
+
+}
+
+.day,
+.hrs,
+.min,
+.sec {
+    font-size: 8rem;
+}
+
+h3 {
+    font-size: 3.5em;
+    font-family: 'Nixie One';
+}
+
+h1 {
+    font-family: 'Spinnaker';
+}
+
+
+
+
+
+img {
+    height: 100%;
+    /* border: solid yellow; */
+    /* margin: 0; */
+    
+}
+
+.top{
+    margin: 10em 0 0 0 ;
+
+}
+
+.bottom{
+    margin: 0 0 10em 0 ;
+
+}
