@@ -11,12 +11,12 @@ body {
     width: 100vw;
     background-color: black;
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 4.5fr 1fr 4.5fr;
     position: relative;
 }
 
 .container {
-    /* border: solid red; */
+    border: solid red;
     height: 100%;
     width: 100%;
     display: grid;
@@ -26,13 +26,16 @@ body {
 }
 
 .bg-container {
-    /* border: solid blue; */
-    display: grid;
+    border: solid blue;
+    display: flex;
     justify-content: center;
     overflow: hidden;
     /* width: 100vw; */
-    /* height: fit-content;  */
-    margin: 0;
+    height: 100%;
+    /* position: relative;  */
+    align-self: flex-end ;
+    margin: 0
+
 }
 
 h3,
@@ -54,11 +57,11 @@ h1 {
 .hrs,
 .min,
 .sec {
-    font-size: 8rem;
+    font-size: 1.5rem;
 }
 
 h3 {
-    font-size: 3.5em;
+    font-size: 0.8em;
     font-family: 'Nixie One';
 }
 
@@ -71,18 +74,20 @@ h1 {
 
 
 img {
-    height: 100%;
-    /* border: solid yellow; */
-    /* margin: 0; */
+    height: 50%;
+    border: solid yellow;
+    
     
 }
 
-.top{
-    margin: 10em 0 0 0 ;
-
+.top img{
+margin: auto auto 0 auto;
 }
 
-.bottom{
-    margin: 0 0 10em 0 ;
 
+
+
+
+.bottom img{
+    margin: 0 auto auto auto;
 }
