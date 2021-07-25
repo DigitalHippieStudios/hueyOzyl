@@ -11,7 +11,7 @@ body {
     width: 100vw;
     background-color: black;
     display: grid;
-    grid-template-rows: 4.5fr 1fr 4.5fr;
+    grid-template-rows: 4.5fr 2fr 4.5fr;
     position: relative;
 }
 
@@ -74,7 +74,7 @@ h1 {
 
 
 img {
-    height: 50%;
+    height: 75%;
     /* border: solid yellow; */
     
     
